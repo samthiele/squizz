@@ -1,0 +1,109 @@
+{
+"SharedValue":{  
+    "name":"Shared Value",
+    "shortDescription":"Potential for community-level shared value.",
+    "source":"https://www.sharedvalue.org/about/what-is-shared-value/"},
+"Mining":{  
+    "name":"Mining",
+    "shortDescription":"Extraction of metalliferous raw materials.",
+    "source":"https://en.wikipedia.org/wiki/Mining"},
+
+"Environment":{  
+    "name":"Environment",
+    "shortDescription":"Preserve and restore natural environments.",
+    "source":"https://www.unep.org/",
+    "isValue":true},
+"Economy":{  
+    "name":"Economy",
+    "shortDescription":"Facilitate sustainable economic growth.",
+    "source":"https://www.un.org/sustainabledevelopment/economic-growth/",
+    "isValue":true},
+"Culture":{  
+    "name":"Education & Culture",
+    "shortDescription":"Build on cultural strengths and provide access to education.",
+    "source":"https://www.un.org/youthenvoy/2013/08/unesco-united-nations-educational-scientific-and-cultural-organization/",
+    "isValue":true},
+"Infrastructure":{  
+    "name":"Infrastructure",
+    "shortDescription":"Meet local needs for transport, energy and digital connectivity.",
+    "source":"https://www.globalgoals.org/goals/9-industry-innovation-and-infrastructure/",
+    "isValue":true},
+"Health":{     
+    "name":"Health and Wellbeing",
+    "shortDescription":"Ensure healthy lives and promoting well-being for all.",
+    "source":"https://sdgs.un.org/topics/health-and-population",
+    "isValue":true},
+"Housing":{
+    "name":"Affordable Housing",
+    "shortDescription":"Provide local affordable housing for all who need it.",
+    "source":"https://unhabitat.org/topic/housing",
+    "isValue":true},
+
+"BiodiversityAndEcosystems":{
+    "name":"Biodiversity and Ecosystems",
+    "shortDescription":"Protect threatened species and conserve terrestrial and acquatic ecosystems.",
+    "source":"https://sdgs.un.org/topics/biodiversity-and-ecosystems"},
+"ChemicalsAndWaste":{
+    "name":"Chemicals and waste",
+    "shortDescription":"Manage toxic chemicals and solid wastes.",
+    "source":"https://sdgs.un.org/topics/chemicals-and-waste"},
+"Employment":{
+    "name":"Employment and Decent Work",
+    "shortDescription":"Provide full and productive employment for all.",
+    "source":"https://sdgs.un.org/topics/employment-decent-work-all-and-social-protection"},
+"Energy":{
+    "name":"Energy",
+    "shortDescription":"Ensure access to affordable, reliable, sustainable and modern energy.",
+    "source":"https://sdgs.un.org/topics/energy"},
+"Desertification":{     
+    "name":"Desertification, land degradation and drought",
+    "shortDescription":"Negative environmental impacts caused by changes to water availability.",
+    "source":"https://sdgs.un.org/topics/desertification-land-degradation-and-drought"},
+"Education":{     
+    "name":"Education",
+    "shortDescription":"Ensure inclusive and equitable quality education.",
+    "source":"https://sdgs.un.org/topics/education"},
+"Forests":{     
+    "name":"Forests",
+    "shortDescription":"Support trees and forests and their multiple ecological, economic, social and cultural roles.",
+    "source":"https://sdgs.un.org/topics/forests"},
+"Industry":{  
+    "name":"Industry",
+    "shortDescription":"Foster sustainable industrialization and promote micro, small and medium-size enterprises.",
+    "source":"https://sdgs.un.org/topics/industry"},
+"Transport":{ 
+    "name":"Sustainable transport",
+    "shortDescription":"Provide affordable and sustainable transport of goods and people.",
+    "source":"https://sdgs.un.org/topics/sustainable-transport"},
+"Tourism":{   
+    "name":"Sustainable tourism",
+    "shortDescription":"Enable tourism that takes account of its economic, social and environmental impacts.",
+    "source":"https://sdgs.un.org/topics/sustainable-tourism"},
+"Water":{     
+    "name":"Water and Sanitation",
+    "shortDescription":"Ensure access to sustainable water and sanitation and mitigate water stress, overexploitation and pollution.",
+    "source":"https://sdgs.un.org/topics/water-and-sanitation"},
+"RuralDevelopment":{  
+    "name":"Rural Development",
+    "shortDescription":"Reduce disparities between urban and rural areas.",
+    "source":"https://sdgs.un.org/topics/rural-development"},
+
+"Deforestation":{  
+    "name":"Deforestation",
+    "shortDescription":"Destruction of forests or other important vegetation through land clearing.",
+    "source":"https://www.unep.org/resources/factsheet/deforestation"},
+"Dewatering":{  
+    "name":"Dewatering",
+    "shortDescription":"Removal of groundwater to enable subsurface access for mining.",
+    "source":"https://en.wikipedia.org/wiki/Mine_dewatering",
+    "hidden":true},
+"Remediation":{  
+    "name":"Remediate legacy sites",
+    "shortDescription":"Finance the remediation of legacy damage to terrestrial or acquatic ecosystems.",
+    "source":"https://www.eea.europa.eu/en/analysis/indicators/progress-in-the-management-of"},
+"Footprint":{  
+    "name":"Surface footprint",
+    "shortDescription":"The surface area influenced significantly by a mining operation.",
+    "source":"https://www.unep.org/resources/factsheet/deforestation",
+    "hidden":true}
+}

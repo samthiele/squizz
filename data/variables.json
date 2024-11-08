@@ -1,0 +1,77 @@
+{
+"PrioritiesEnvironment":{  
+    "name":"Environment",
+    "shortDescription":"Preserve and restore natural environments.",
+    "range":[0,1],
+    "default":0.5,
+    "source":"https://www.unep.org/",
+    "group":"Priorities"},
+"PrioritiesEconomy":{  
+    "name":"Economy",
+    "shortDescription":"Facilitate sustainable economic growth.",
+    "range":[0,1],
+    "default":0.5,
+    "source":"https://www.un.org/sustainabledevelopment/economic-growth/",
+    "group":"Priorities"},
+"PrioritiesCulture":{  
+    "name":"Education & Culture",
+    "shortDescription":"Build on cultural strengths and provide access to education.",
+    "range":[0,1],
+    "default":0.5,
+    "source":"https://www.un.org/youthenvoy/2013/08/unesco-united-nations-educational-scientific-and-cultural-organization/",
+    "group":"Priorities"},
+"PrioritiesInfrastructure":{  
+    "name":"Infrastructure",
+    "shortDescription":"Meet local needs for transport, energy and digital connectivity.",
+    "range":[0,1],
+    "default":0.5,
+    "source":"https://www.globalgoals.org/goals/9-industry-innovation-and-infrastructure/",
+    "group":"Priorities"},
+"PrioritiesHealth":{     
+    "name":"Health and Wellbeing",
+    "shortDescription":"Ensure healthy lives and promoting well-being for all.",
+    "range":[0,1],
+    "default":0.5,
+    "source":"https://sdgs.un.org/topics/health-and-population",
+    "group":"Priorities"},
+"PrioritiesHousing":{
+    "name":"Affordable Housing",
+    "shortDescription":"Provide local affordable housing for all who need it.",
+    "range":[0,1],
+    "default":0.5,
+    "source":"https://unhabitat.org/topic/housing",
+    "group":"Priorities"},
+
+"size":{"name":"Mine size",
+        "shortDescription":"Qualitative size of a mining operation.",
+        "values":{
+                "Minor" : 0.01,
+                "Moderate" : 0.1, 
+                "Major" : 0.5,
+                "Giant" : 1.0 },
+        "default":"Moderate",
+        "group":"Mine Properties",
+        "source":"https://minexconsulting.com/definitions/deposit-size/",
+        "notes":"Unitless, but reflects roughly power-law scaling of both contained resource and surface impact (area)"},
+    
+"type":{"name":"Operation type",
+        "shortDescription":"Mineral extraction method.",
+        "values":{"Underground" : 0,
+                  "Surface" : 1},
+        "default":"Underground",
+        "group":"Mine Properties",
+        "source":"https://www.americangeosciences.org/critical-issues/faq/what-are-main-mining-methods",
+        "notes":"Zero for underground operations, one for open pit."},
+"investment":{
+        "name":"Local investment",
+        "shortDescription":"Local investment by mine operator.",
+        "values":{
+                "Minor" : 0.01,
+                "Moderate" : 0.1, 
+                "Major" : 0.5,
+                "Giant" : 1.0 },
+        "default":"Moderate",
+        "group":"Mine Properties",
+        "source":"https://rue.bmz.de/rue-en/topics/lprm-86756",
+        "notes":"Unitless, but reflects roughly power-law local contributions that are possible."}
+}
