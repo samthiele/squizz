@@ -1,10 +1,4 @@
 {
-    "protectedArea":{
-        "name":"Protected areas",
-        "data":"attr/protectedArea.json",
-        "geom":"geom/europe_level5_hexagons.geojson",
-        "shortDescription":"Natura2000 and Emerald protected areas.",
-        "source":"https://www.bmuv.de/themen/naturschutz/gebietsschutz-und-vernetzung/natura-2000/schutzgebietsnetz-natura-2000"},
     "naturalveg":{
         "name":"Natural vegetation",
         "data":"attr/naturalVeg.json",
@@ -17,6 +11,18 @@
         "geom":"geom/europe_level5_hexagons.geojson",
         "shortDescription":"Degraded (e.g., overgrazed) vegetation.",
         "source":"https://esdac.jrc.ec.europa.eu/content/land-degradation-europe"},
+    "farmland":{
+        "name":"Farmland",
+        "data":"attr/farmland.json",
+        "geom":"geom/europe_level5_hexagons.geojson",
+        "shortDescription":"Agricultural lands and farms.",
+        "source":"https://land.copernicus.eu/en/products/corine-land-cover"},
+    "industrial":{
+        "name":"Industrial Sites",
+        "data":"attr/industrial.json",
+        "geom":"geom/europe_level5_hexagons.geojson",
+        "shortDescription":"Areas dominated by heavy industry.",
+        "source":"https://land.copernicus.eu/en/products/corine-land-cover"},
     "mines":{
         "name":"Mine Sites",
         "data":"attr/mines.json",
@@ -46,6 +52,12 @@
         "data":"attr/wetland.json",
         "geom":"geom/europe_level5_hexagons.geojson",
         "shortDescription":"Wetland areas, lakes and rivers.",
+        "source":"https://land.copernicus.eu/en/products/corine-land-cover"},
+    "wasteDumps":{
+        "name":"Waste Dumps",
+        "data":"attr/wasteDumps.json",
+        "geom":"geom/europe_level5_hexagons.geojson",
+        "shortDescription":"Legacy waste dumping sites",
         "source":"https://land.copernicus.eu/en/products/corine-land-cover"},
     "groundwater":{
         "name":"Overexploited Groundwater",

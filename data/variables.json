@@ -34,12 +34,12 @@
     "default":0.5,
     "source":"https://sdgs.un.org/topics/health-and-population",
     "group":"Priorities"},
-"PrioritiesHousing":{
-    "name":"Affordable Housing",
-    "shortDescription":"Provide local affordable housing for all who need it.",
+"PrioritiesEducation":{     
+    "name":"Education",
+    "shortDescription":"Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.",
     "range":[0,1],
     "default":0.5,
-    "source":"https://unhabitat.org/topic/housing",
+    "source":"https://www.globalgoals.org/goals/4-quality-education/",
     "group":"Priorities"},
 
 "size":{"name":"Mine size",
