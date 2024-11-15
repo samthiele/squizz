@@ -47,7 +47,7 @@
     "shortDescription":"Protect threatened species and conserve terrestrial and acquatic ecosystems.",
     "source":"https://sdgs.un.org/topics/biodiversity-and-ecosystems"},
 "Employment":{
-    "name":"Employment and Decent Work",
+    "name":"Employment",
     "shortDescription":"Provide full and productive employment for all.",
     "source":"https://sdgs.un.org/topics/employment-decent-work-all-and-social-protection"},
 "LocalInvestment":{
@@ -56,7 +56,7 @@
     "source":"https://guidance.miningwithprinciples.com/community-development-toolkit/tool-17-local-economic-investment/",
     "hidden":true},
 "Desertification":{     
-    "name":"Desertification, land degradation and drought",
+    "name":"Desertification",
     "shortDescription":"Negative environmental impacts caused by changes to water availability.",
     "source":"https://sdgs.un.org/topics/desertification-land-degradation-and-drought"},
 "Education":{     
@@ -72,7 +72,7 @@
     "shortDescription":"Foster sustainable industrialization and promote micro, small and medium-size enterprises.",
     "source":"https://sdgs.un.org/topics/industry"},
 "Water":{     
-    "name":"Water and Sanitation",
+    "name":"Water Supply",
     "shortDescription":"Ensure access to sustainable water and sanitation and mitigate water stress, overexploitation and pollution.",
     "source":"https://sdgs.un.org/topics/water-and-sanitation"},
 "Dewatering":{  
