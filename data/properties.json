@@ -9,27 +9,27 @@
     "source":"https://en.wikipedia.org/wiki/Mining"},
 "NaturalCapital":{  
     "name":"Natural Capital",
-    "shortDescription":"Preserve and restore natural environments.",
+    "shortDescription":"Earth's services and ecosystems supporting life and economy.",
     "source":"https://www.unep.org/",
     "isValue":true},
 "FinancialCapital":{  
     "name":"Financial Captial",
-    "shortDescription":"Facilitate sustainable economic growth.",
+    "shortDescription":"Money, assets, and investments enabling economic growth.",
     "source":"https://www.un.org/sustainabledevelopment/economic-growth/",
     "isValue":true},
 "SocialCapital":{  
     "name":"Social Capital",
-    "shortDescription":"Build on cultural strengths and provide access to education.",
+    "shortDescription":"Relationships, networks, and trust fostering collaboration.",
     "source":"https://www.un.org/youthenvoy/2013/08/unesco-united-nations-educational-scientific-and-cultural-organization/",
     "isValue":true},
 "HumanCapital":{  
     "name":"Human Capital",
-    "shortDescription":"The skills, knowledge, and experience possessed by an individual or population.",
+    "shortDescription":"Skills, knowledge, and health of people driving productivity.",
     "source":"https://www.worldbank.org/en/publication/human-capital",
     "isValue":true},
 "PhysicalCapital":{  
     "name":"Physical Capital",
-    "shortDescription":"Meet local needs for transport, energy and digital connectivity.",
+    "shortDescription":"Man-made infrastructure like buildings, tools, and technology.",
     "source":"https://www.globalgoals.org/goals/9-industry-innovation-and-infrastructure/",
     "isValue":true},
 "Health":{     
@@ -82,7 +82,7 @@
     "source":"https://www.eea.europa.eu/en/analysis/indicators/progress-in-the-management-of"},
 "Deforestation":{  
     "name":"Deforestation",
-    "shortDescription":"Deforestation is the conversion of forest to other land use, often with environmentally damaging results.",
+    "shortDescription":"The conversion of forest to other land use, often with environmentally damaging results.",
     "source":"https://www.undrr.org/understanding-disaster-risk/terminology/hips/en0009",
     "hidden":true},
 "EffectiveFootprint":{  
