@@ -96,7 +96,7 @@
         {"tend": [["variables/investment", "index/institutions"]], "logic": "Local investment from a mining company is determined by the companies willingness to invest and local governance strength."}],
     ["properties/Footprint",
         "properties/EffectiveFootprint",
-        {"tend": [[2], [-1, "index/institutions"]], "logic": "A mine's actual surface impact can be increased in areas with poor local governance."}],
+        {"tend": [[2], [-1, "index/institutions"]], "logic": "A mine's actual surface impact is often increased in areas with poor local governance."}],
     ["properties/Mining",
         "properties/Footprint",
         {"tend": [[0.3,"variables/size"], [0.7, "variables/type","variables/size"]], "logic": "A mine's surface footprint is proportional its size and it's type. We assume underground mines have 30% of the surface footprint of open-pit mines."}]
