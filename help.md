@@ -1,13 +1,15 @@
 # About
-Squizz is prototype application gathers social and environmental data and combines them in a way that lets you explore mining's potential impact in Europe.
+Squizz is prototype application that gathers social and environmental data and combines them in a way that lets you explore mining's potential impact in Europe.
 
-It aims to help identify and explore the various pathways in which mining can have positive and negative impacts, to promote shared value rather than conflict. While hugely challenging, identifying regions where which mining can co-create mutual benefit to society (and the environment) is crucial to ensuring sustainable and local supply of the raw materials used by society.
+It aims to help identify and explore the various pathways by which mining can have positive and negative impacts, to facilitate the creation of [shared value](https://www.sharedvalue.org/about/what-is-shared-value/) rather than conflict. 
+
+While hugely challenging, identifying regions where which mining can help co-create mutual benefits (to society and the environment) is crucial to ensure sustainable and geopolitically secure supply of the raw materials used by society.
 
 # How can I use Squizz?
 
-Use the toolbar on the left to chose your personal, company or community priorities using the "Priorities" sliders, moving them to the right to increase priority and the left to decrease it.
+Use the toolbar on the left to chose your personal, community or company priorities by moving the "Priorities" sliders to the left (low priority) or right (high priority).
 
-Then specify the potential mine properties. Options here are:
+Then select the potential mine properties for the following options:
 
 **Mine Size**: *Is the mining operation Minor (0.01), Moderate (0.1), Major (0.5) or Giant (1.0).*
 
@@ -15,26 +17,29 @@ Then specify the potential mine properties. Options here are:
 
 **Local Investment**: *Does the mine operator make a Minor (0.01), Moderate (0.1), Major (0.5) or Giant (1.0) contribution to local community development.*
 
-Finally, click `Apply` to update the map viewer to reflect your changes. By default the map shows the *Shared Value Index*, a combination of all potential mine impacts weighted by your chosen priorites, but individual impacts and aspects can be shown instead using the `Attribute` dropdown.
+Finally, click `Apply` to update the map viewer given your changes. By default this shows the *Shared Value Index*, a combination of all potential mine impacts weighted by your chosen priorites, but individual impacts and aspects can also be shown (using the `Attribute` dropdown).
 
-This `Attribute` dropdown can also be used to visualise the input spatial data (mapping environmental and spatial context) used to determine these potential impacts.
+The spatial indices mapping environmental and spatial context, which are combined to predict the strength and tendency of potential impacts, can also be selected in the `Attribute` dropdown.
 
-Specific locations (hexagons) can be selected by clicking them, to explore the *impact tendency graph*, which combines these spatial indices to semi-quantitatively predict the tendency (positive or negative) of a new mine. Hover the mouse over any edge in this graph to get more information on how each relationship has been approximated, or scroll to the bottom of the page to see each individual impact pathway (divided into potential positive impacts and potential sources of conflict).
+Finally, specific locations (hexagons) can be inspected by clicking them. This will show the *impact tendency graph* used to estimate the impact tendencies (positive or negative) and shared value index. Hover the mouse over any edge in this graph to get more information on how each relationship has been approximated, or scroll to the bottom of the page to see each individual impact pathway (divided into potential positive impacts and potential sources of conflict).
 
 # How does Squizz work?
 
-Squizz combines a set of environmental and societal indicators (as shown in the lower half of the `Attribute` graph) with an impact graph to semi-quantitatively explore the potential impacts of a mining operation given it's geospatial and societal context.
+Squizz combines a set of environmental and societal indicators (as shown in the lower half of the `Attribute` graph), with an impact graph to semi-quantitatively explore the potential impact tendencies (positive vs negative) of a new mining operation across geospatial and societal contexts.
 
-The impact graph contains directed edges that denote the (positive or negative) impact that a change in one property causes on another. Thus the effect of an increase in mining (the root node) is propagated through the graph to determine its cascading effect on all other properties in the graph, including Shared Value.
+The impact graph contains directed edges that represent the (positive or negative) impact that a change in one property causes on another. Thus the effect of an increase in mining (the root node) is propagated through the graph to determine its cascading effect on all other properties in the graph, including Shared Value.
 
-Edge edge is assigned a weight (which mathematically is a partial derivative) that determines the sign (positive or negative) and magnitude of these impacts. The weights can be constant, based on the selected `Priorities` and `Mine Properties`, or derived from the geospatial indices. For example, *Deforestation* always has a strong negative impact on *Forests*, so the edge between *Deforestation* and *Forests* is assigned a constant weight of -1. The amount of *Deforestation* depends on the amount of existing forest cover, so the edge between *Mine footprint* and *Deforestation* gets a weight that is equal to the *Forest area* spatial index (proportion of each hexagon containing forest now).
+Each edge is assigned a weight (which mathematically is a partial derivative) that determines the sign (positive or negative) and magnitude of these impacts. The weights can be constant, based on the selected `Priorities` and `Mine Properties`, or derived from the geospatial indices.
+
+ For example, *Deforestation* always has a strong negative impact on *Forests*, so the edge between *Deforestation* and *Forests* is assigned a constant weight of -1. The amount of *Deforestation* depends on the amount of existing forest cover, so the edge between *Mine footprint* and *Deforestation* gets a weight that is equal to the *Forest area* spatial index (proportion of each hexagon containing forest now).
 
 Hover the mouse over a weight in the impact graph to see the equation used to calculate it, and a description of the effects that this aims to capture.
 
-Note that this approach is semi-quantitative, as assigning meaningful magnitudes to the edge weights is challenging. Instead, all the spatial indices (and other adjustable properties) are carefully normalised to range between 0 and 1, such that edge weights can be computed in a way that focuses on the relative strength of a relationship (to an order of magnitude; e.g., 1 indicates a very very strong link, while 0.1 indicates a weak link). 
+After computing edge weights, impact tendencies are computed using the chain-rule: starting with a set change in mining (+1, i.e. a new mine) and multiplying this seed by each edge value to propagate downstream changes and compute mining's impact tendency on each property in the graph. Where multiple impact pathways converge, their effects are summed together to (crudely) estimate the net impact.
 
-As such the results should be used as a guide to identify potential pathways to shared value (and risks that could lead to conflict), but should not be interpreted quantitatively. We aim to create results with meaningful "impact tendencies" (i.e. the sign of the impact indicating potential positive or negative outcomes), but the magnitudes should not be over-interpreted (but can be treated as similar to an uncertainty value).
+Note that this approach is semi-quantitative, as assigning magnitudes to the edge weights is challenging. Instead, all the spatial indices (and other adjustable properties) are carefully normalised to range between 0 and 1, such that edge weights represent the relative strength of a relationship (to an order of magnitude; e.g., 1 indicates a very very strong positive effect, while -0.1 indicates a weak negative effect). 
 
+As such, the results should only be used as a guide for identifying potential pathways to shared value, and risks that could lead to conflict, based on the sign (positive or negative tendency) of the outputs. They should not be interpreted quantitatively. Instead, the magnitude of the estimated impact tendency can be interpreted similar to a confidence (high absolute values) or uncertainty (low absolute values) estimate. 
 
 # Data sources
 
