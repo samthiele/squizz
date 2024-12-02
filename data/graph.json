@@ -55,16 +55,16 @@
         {"tend": [[-1, "index/groundwater"]], "logic": "Dewatering's impact on water usage is proportional to groundwater stress or overexploitation."}],
     ["properties/EffectiveFootprint",
         "properties/Housing",
-        {"tend": [[-1, "index/recreation"], [-1, "index/residential"]], "logic": "A mine's footprint reduces housing when it impacts residential or recreational areas."}],
+        {"tend": [[-2, "index/recreation"], [-2, "index/residential"]], "logic": "A mine's footprint reduces housing when it impacts residential or recreational areas."}],
     ["properties/EffectiveFootprint",
         "properties/PhysicalCapital",
-        {"tend": [[-1, "index/transport"], [-1, "index/residential"]], "logic": "A mine's footprint reduces physical capital directly if it impinges on existing infrastructure (industry, transport, residential)."}],
+        {"tend": [[-2, "index/transport"]], "logic": "A mine's footprint reduces physical capital directly if it impinges on existing infrastructure (industry, transport, residential)."}],
     ["properties/EffectiveFootprint",
         "properties/BiodiversityAndEcosystems",
-        {"tend": [[-1, "index/protectedArea"]], "logic": "A mine's footprint impacts reduces biodiversity and important ecosystems when it overlaps with protected areas."}],
+        {"tend": [[-2, "index/protectedArea"]], "logic": "A mine's footprint impacts reduces biodiversity and important ecosystems when it overlaps with protected areas."}],
     ["properties/EffectiveFootprint",
         "properties/Water",
-        {"tend": [[-1, "index/wetland"]], "logic": "Water resources are negatively effected proportional to the amount of a mine overlapping with wetland or riverine areas."}],
+        {"tend": [[-2, "index/wetland"]], "logic": "Water resources are negatively effected proportional to the amount of a mine overlapping with wetland or riverine areas."}],
     ["properties/EffectiveFootprint",
         "properties/Dewatering",
         {"tend": [1], "logic": "The amount of dewatering needed scales directly with a mines effective (surface) footprint."}],
@@ -99,6 +99,6 @@
         {"tend": [[2], [-1, "index/institutions"]], "logic": "A mine's actual surface impact is often increased in areas with poor local governance."}],
     ["properties/Mining",
         "properties/Footprint",
-        {"tend": [[0.3,"variables/size"], [0.7, "variables/type","variables/size"]], "logic": "A mine's surface footprint is proportional its size and it's type. We assume underground mines have 30% of the surface footprint of open-pit mines."}]
+        {"tend": [[0.4,"variables/size"], [0.6, "variables/type","variables/size"]], "logic": "A mine's surface footprint is proportional its size and it's type. We assume underground mines have 40% of the surface footprint of open-pit mines."}]
 ]
 }
