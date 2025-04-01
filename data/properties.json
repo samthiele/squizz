@@ -1,0 +1,113 @@
+{
+"SharedValue":{  
+    "name":"ESGi",
+    "range":["Negative Tendency","Neutral","Positive Tendency"],
+    "shortDescription":"Aggregated impact tendencies weighted by relevant values/priorities.",
+    "source":"https://en.wikipedia.org/wiki/Environmental,_social,_and_governance",
+    "group":"Tradeoffs"
+    },
+"Mining":{  
+    "name":"Mining",
+    "shortDescription":"Extraction of metalliferous raw materials.",
+    "source":"https://en.wikipedia.org/wiki/Mining", "group":"None"},
+"NaturalCapital":{  
+    "name":"Nature",
+    "shortDescription":"Earth's services and ecosystems supporting life and economy.",
+    "source":"https://www.unep.org/",
+    "isValue":true, "group":"None"},
+"FinancialCapital":{  
+    "name":"Finance",
+    "shortDescription":"Money, assets, and investments enabling economic growth.",
+    "source":"https://www.un.org/sustainabledevelopment/economic-growth/",
+    "isValue":true, "group":"None"},
+"SocialCapital":{  
+    "name":"Society",
+    "shortDescription":"Relationships, networks, and trust fostering collaboration.",
+    "source":"https://www.un.org/youthenvoy/2013/08/unesco-united-nations-educational-scientific-and-cultural-organization/",
+    "isValue":true, "group":"None"},
+"HumanCapital":{  
+    "name":"Humans",
+    "shortDescription":"Aggregate index indicating .",
+    "source":"https://www.worldbank.org/en/publication/human-capital",
+    "isValue":true, "group":"None"},
+"PhysicalCapital":{  
+    "name":"Infrastructure",
+    "shortDescription":"Man-made infrastructure like buildings, tools, and technology.",
+    "source":"https://www.globalgoals.org/goals/9-industry-innovation-and-infrastructure/",
+    "isValue":true, "group":"None"},
+"Health":{     
+    "name":"Health and Wellbeing",
+    "shortDescription":"Ensure healthy lives and promoting well-being for all.",
+    "source":"https://sdgs.un.org/topics/health-and-population",
+    "isValue":true, "group":"None"},
+"Industry":{  
+    "name":"Industry",
+    "range":["Negative Tendency","Neutral","Positive Tendency"],
+    "shortDescription":"Index indicating opportunities for industrial development (through e.g., needed infrastructure or technology synergies).",
+    "source":"https://sdgs.un.org/topics/industry", "group":"Impact"},
+"Housing":{     
+    "name":"Housing",
+    "range":["Negative Tendency","Neutral","Positive Tendency"],
+    "shortDescription":"Impact tendency indicating effects on local housing availability.",
+    "source":"https://unece.org/housing/affordablehousing", "group":"Impact"},
+"BiodiversityAndEcosystems":{
+    "name":"Biodiversity and Ecosystems",
+    "range":["Negative Tendency","Neutral","Positive Tendency"],
+    "shortDescription":"Impact tendency indicating compatability with local (protected) biodiversity and ecosystems.",
+    "source":"https://sdgs.un.org/topics/biodiversity-and-ecosystems", "group":"Impact"},
+"Employment":{
+    "name":"Employment",
+    "range":["Negative Tendency","Neutral","Positive Tendency"],
+    "shortDescription":"Impact tendency indiciating local employment needs (based on the unemployment rate)",
+    "source":"https://sdgs.un.org/topics/employment-decent-work-all-and-social-protection", "group":"Impact"},
+"LocalInvestment":{
+    "name":"Governance adjusted investment",
+    "range":["Lower","","Higher"],
+    "shortDescription":"Impact tendency indicating how efficiently local investment is expected to result in positive impacts (given the strength of local governance).",
+    "source":"https://guidance.miningwithprinciples.com/community-development-toolkit/tool-17-local-economic-investment/",
+    "hidden":false, "group":"Impact"},
+"Education":{     
+    "name":"Education",
+    "range":["Negative Tendency","Neutral","Positive Tendency"],
+    "shortDescription":"Impact tendency indicating opportunites for improving local education.",
+    "source":"https://sdgs.un.org/topics/education", "group":"Impact"},
+"Forests":{     
+    "name":"Forests",
+    "range":["Negative Tendency","Neutral","Positive Tendency"],
+    "shortDescription":"Impact tendency indicating impacts on existing forests (or other well-preserved natural ecosystems).",
+    "source":"https://sdgs.un.org/topics/forests", "group":"Impact"},
+"Water":{     
+    "name":"Water",
+    "range":["Negative Tendency","Neutral","Positive Tendency"],
+    "shortDescription":"Impact tendency indicating possible conflict over ground or surface water resources or wetlands.",
+    "source":"https://sdgs.un.org/topics/water-and-sanitation", "group":"Impact"},
+"Dewatering":{  
+    "name":"Dewatering",
+    "range":["Negative Tendency","Neutral","Positive Tendency"],
+    "shortDescription":"Impact tendency of mine dewatering on groundwater supply.",
+    "source":"https://en.wikipedia.org/wiki/Mine_dewatering",
+    "hidden":true, "group":"Impact"},
+"Remediation":{  
+    "name":"Remediate legacy sites",
+    "range":["Limited opportunities","Neutral","Many opportunities"],
+    "shortDescription":"Potential to finance the remediation of legacy damage to terrestrial or acquatic ecosystems.",
+    "source":"https://www.eea.europa.eu/en/analysis/indicators/progress-in-the-management-of",
+    "group":"Impact"},
+"Deforestation":{  
+    "name":"Deforestation",
+    "range":["Negative Tendency","Neutral","Positive Tendency"],
+    "shortDescription":"The conversion of forest to other land use, often with environmentally damaging results.",
+    "source":"https://www.undrr.org/understanding-disaster-risk/terminology/hips/en0009",
+    "hidden":true, "group":"Impact"},
+"EffectiveFootprint":{  
+    "name":"Governance adjusted footprint",
+    "range":["Lower","","Higher"],
+    "shortDescription":"Index capturing the expected increase in a mine's surface footprint in areas with weaker governance.",
+    "source":"https://www.bioregionalassessments.gov.au/assessments/261-surface-water-numerical-modelling-galilee-subregion/26134-mine-footprints",
+    "hidden":false, "group":"Impact"},
+"Footprint":{  
+    "name":"Surface footprint",
+    "shortDescription":"The surface area influenced significantly by a mining operation",
+    "source":"https://www.bioregionalassessments.gov.au/assessments/261-surface-water-numerical-modelling-galilee-subregion/26134-mine-footprints",
+    "hidden":true, "group":"Impact"}
+}
