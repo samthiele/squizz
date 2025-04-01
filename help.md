@@ -1,3 +1,5 @@
+![Vector banner](./banner.png)
+
 # How to use Squizz
 
 Use the toolbar on the left to explore the context and possiblities associated with a hypothetical new mine, and identify possible opportunities and conflicts. The tabs at the top of the toolbar break this challenging task into more digestible chunks, as described below.
