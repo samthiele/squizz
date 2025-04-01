@@ -133,7 +133,7 @@
         "source":"https://ec.europa.eu/regional_policy/assets/regional-competitiveness/index.html#/"},
     "unemployment":{
         "name":"Unemployment rate",
-        "data":"attr/Unemploymentrate.json",
+        "data":"attr/unemploymentrate.json",
         "geom":"geom/europe_level5_hexagons.geojson",
         "shortDescription":"Local unemployment rate.",
         "source":"https://ec.europa.eu/regional_policy/assets/regional-competitiveness/index.html#/"}
