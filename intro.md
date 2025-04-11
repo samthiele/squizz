@@ -1,31 +1,22 @@
 ![Vector banner](./banner.png)
 # Welcome to Squizz!
-
 ## What is Squizz?
-**Squizz** is a prototype mapping application designed to support collaboration and communication among stakeholders from **research, industry, and local government**.  It provides a platform for exploring the complexity of mining in Europe from both social and environmental perspectives, enabling these diverse groups to engage in informed discussions and co-create sustainable strategies for mining projects.
+
+**Squizz** is a platform designed to facilitate dialogue around the topic of mining in Europe. **Squizz** is a spatial tool that can help the users to identify potential Environmental, Social and Governance aspects that would require attention if a mining site would be envisaged in a given region. Specifically, it enables the visualization of potential positive and/or negative impacts of mining in a regional socio-economic and environmental context.  
+
+Squizz is thus a tool dedicated to enable informed dialogues and critical thinking that might lead to  the co-creation of sustainable strategies for the metal sourcing required to ensure the energy transition in Europe. The targeted audience is primarily stakeholders from **research, industry, and local government**.
 
 ## What does Squizz do?
-Squizz uses machine learning to combine social and environmental from across the EU which can help users explore how these factors may impact potential mining projects. The result is a semi-quantitative indication of potential opportunities or conflicts – which is referred to as **impact tendencies**:
 
--	**Positive tendencies** suggest potential benefits (e.g., jobs, regional development). 
--	**Negative tendencies** suggest possible risks or tensions (e.g., negative environmental impact, social resistance).
+Squizz uses data science tools to combine freely available social, governance and environmental data in the EU that are available as maps. Based on empirical processes, that still need scrutiny, the tool then identifies potential impacts of mine sites on economic, environmental, social factors that were identified as important when addressing potential mining projects. To ease the access to non-experts, the result is a semi-quantitative indication of potential opportunities or conflicts – which are referred to as **impact tendencies**:
 
-The impact tendency values are colour-coded on a hexagon-based map of Europe, where each hexagon represents one region.
+- **Positive tendencies** suggest potential benefits (e.g., jobs, regional development). 
+- **Negative tendencies** suggest possible risks or tensions (e.g., negative environmental impact, social resistance).
 
-## The VECTOR Project
-
-Europe set out its goals for decarbonization in the EU Green Deal. Achieving these targets will require more responsible use of, and a sharp increase in, the supply of critical raw materials.  To meet its demand in raw materials, the EU is currently reliant on imports and is therefore vulnerable to changes in the geopolitical landscape and supply chain interruptions. Complex social, environmental, and technical challenges need to be understood to explore the potential domestic sourcing of metals and minerals in the EU. The VECTOR project seeks to explore these challenges by bringing geosciences and social sciences together. VECTOR [seeks](https://vectorproject.eu/) to develop human-centred solutions for a socially acceptable, responsible, and sustainable supply of critical raw materials in Europe and thus contribute to achieving the Green Deal.
-
+The impact tendency values are colour-coded on a map of Europe that the user can interactively manipulate. 
 
 ## Disclaimer
 
-Impact tendencies and results are **not** predictions. Real-world impacts depend on specific project details, community engagement, and mitigation strategies. However, Squizz can support early-stage processes such as training, regional exploration or screening, by highlighting social and environmental considerations.
+The VECTOR project [aims](https://vectorproject.eu/) to understand societal responses to critical raw material exploration within the EU, integrating environmental concerns with scientific solutions for sustainable metal sourcing. While acknowledging mining’s potential environmental and societal damage, the project emphasizes the need for responsible metal sourcing to meet climate goals, alongside reduced consumption and circular economy technologies.  Squizz is meant to support dialogue during early-stage processes such as stakeholder engagement or regional exploration or screening, by highlighting social and environmental considerations. This tool is therefore not intended to make predictions. Real-world impacts depend on specific project characteristics, community engagement, mitigation strategies, etc. 
 
-Before  continuing, please confirm that you are aware that Squizz:
-
-1.	Does **not** advocate for or against any specific (current or proposed) mines.
-2.	Does **not** identify regions as "appropriate" or "inappropriate" for mining. 
-3.	Does **not** predict public acceptability or social licence to operate. 
-4.	Is a research prototype and should be used with **caution**.
-
-Please refer to the [help](.#/help) page for guidance on how Squizz works and how to use it.
+We kindly ask you to acknowledge that Squizz doesn’t take a stance on any specific mines, past or proposed. It doesn’t label regions as “good” or “bad” for mining. It doesn’t predict whether any stakeholder would approve a project or not. Squizz is simply a research prototype that needs considerate caution.
